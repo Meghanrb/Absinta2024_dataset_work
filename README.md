@@ -8,3 +8,6 @@ SRR15235936	9/2/21 11:30	7/24/21 16:44	244167324	29055911556	244167324	119	12657
 ### downloaded cellranger
 see details here: https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/using/tutorial_in#login
 
+### Ran Cellranger 
+cellranger.SBATCH for the slurm script
+

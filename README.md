@@ -7,7 +7,8 @@ SRR15235936	9/2/21 11:30	7/24/21 16:44	244167324	29055911556	244167324	119	12657
 ## Workflow:
 
 ### 1. Copied files to directory 
-gsutil cp -r gs://gu-biology-pi-jh1659/SRR1* .
+LONGON TO INTERACTIVE NODE: srun --pty bash
+gsutil -m cp -r gs://gu-biology-pi-jh1659/SRR1* .
 OR write a slurm script: https://hpc.georgetown.edu/how-to-transfer-files/transferring-data-from-or-to-gcs
 
 ### 2. Align Reads

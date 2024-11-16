@@ -13,7 +13,11 @@ OR write a slurm script: https://hpc.georgetown.edu/how-to-transfer-files/transf
 
 ## 2. Align Reads with Cell ranger
 
-### downloaded cellranger
+### downloaded cellranger OR call it
+For calling it:
+make sure you are on a compute node!!
+export PATH=/home/mrb339/huang_lab/cellranger-8.0.1:$PATH
+For downloading:
 see details here: https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/using/tutorial_in#login
 
 ### Ran Cellranger 

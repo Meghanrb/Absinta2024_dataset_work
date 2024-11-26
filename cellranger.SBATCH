@@ -5,8 +5,8 @@
 #SBATCH --mail-user=mrb339@georgetown.edu
 #SBATCH --nodes=1
 #SBATCH --ntasks=1           # This should be 1, as we'll be using background processes or parallel
-#SBATCH --cpus-per-task=1   # Adjust based on your system needs
-#SBATCH --time=72:00:00
+#SBATCH --cpus-per-task=1   
+#SBATCH --time=90:00:00
 #SBATCH --mem=120G
 
 # Define the reference transcriptome
@@ -25,10 +25,6 @@ for SAMPLE in "${SAMPLES[@]}"; do
     --transcriptome=${TRANSCRIPTOME} \
     --fastqs=${FASTQ_DIR}/${SAMPLE} \
     --create-bam=true &
-
-  # Optionally, sleep a little to avoid overwhelming the system (if needed)
-  sleep 1
-done
 
 # Wait for all background jobs to complete before finishing the script
 wait

@@ -21,5 +21,5 @@ For downloading:
 see details here: https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/using/tutorial_in#login
 
 ### Ran Cellranger 
-cellranger.SBATCH for the slurm script
+[cellranger.SBATCH](https://github.com/Meghanrb/Absinta2024_dataset_work/blob/main/cellranger.SBATCH) for the slurm script
 

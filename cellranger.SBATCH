@@ -25,6 +25,7 @@ for SAMPLE in "${SAMPLES[@]}"; do
     --transcriptome=${TRANSCRIPTOME} \
     --fastqs=${FASTQ_DIR}/${SAMPLE} \
     --create-bam=true &
-
+#tell the script to finish
+done
 # Wait for all background jobs to complete before finishing the script
 wait

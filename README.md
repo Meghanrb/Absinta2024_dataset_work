@@ -12,7 +12,8 @@ gsutil -m cp -r gs://gu-biology-pi-jh1659/SRR1* .
 OR write a slurm script: https://hpc.georgetown.edu/how-to-transfer-files/transferring-data-from-or-to-gcs
 
 ## 2. Align Reads with Cell ranger
-
+### Human reference genome:
+refdata-gex-GRCh38-2020-A
 ### downloaded cellranger OR call it
 For calling it:
 make sure you are on a compute node!!

@@ -11,7 +11,7 @@ LONGON TO INTERACTIVE NODE: srun --pty bash
 gsutil -m cp -r gs://gu-biology-pi-jh1659/SRR1* .
 OR write a slurm script: https://hpc.georgetown.edu/how-to-transfer-files/transferring-data-from-or-to-gcs
 
-## 2. Align Reads with Cell ranger
+## 2. Align Reads with Cell ranger (cellranger-8.0.1)
 ### Human reference genome:
 refdata-gex-GRCh38-2020-A
 ### downloaded cellranger OR call it
